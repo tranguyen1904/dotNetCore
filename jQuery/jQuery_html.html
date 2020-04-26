@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script type="text/javascript" src="script.js" defer></script>
+</head>
+<body>
+	<div class="Ex Ex1">
+		<h3>Exercise 1</h3>
+		<div class="container">
+			
+			<div class="inline">
+				<h3>What is the Difference Between the two Numbers</h3>		
+			</div>
+			<div class="inline">
+				<button class="btn-start">Start Subtraction</button>
+			</div>
+			<div class="inline random-input">
+				<input type="text" class="txt txt-minuend" value="" disabled>
+				<label>-</label>
+				<input type="text" class="txt txt-subtrahend" value="" disabled>
+				<label>=</label>
+			</div>
+			<div class="inline">
+				<button class="btn-number" value="0">0</button>
+				<button class="btn-number" value="1">1</button>
+				<button class="btn-number" value="2">2</button>
+				<button class="btn-number" value="3">3</button>
+				<button class="btn-number" value="4">4</button>
+				<button class="btn-number" value="5">5</button>
+				<button class="btn-number" value="6">6</button>
+				<button class="btn-number" value="7">7</button>
+				<button class="btn-number" value="8">8</button>
+				<button class="btn-number" value="9">9</button>
+			</div>
+			<div class="inline">
+				<input type="text" class="txt txt-result" disabled>
+			</div>
+			<div class="inline result">
+				You have 
+				<span><input type="text=" class="txt txt-correct" disabled></span>
+				correct . and
+				<span><input type="text" class="txt txt-incorrect" disabled></span>
+				incorrect. This is
+				<span><input type="text" class="txt txt-percent" disabled></span>
+				percent correct.
+			</div>
+		</div>
+	</div>
+	
+	<div class="Ex Ex2">
+		<h3>Exercise 2</h3>
+		<div class="container">
+			<div class="inline input">
+				<label>Convert</label>
+				<input type="text" class="txt txt-input" value="">
+				<select id='slt-unit1'>
+					<option value="kg">kg</option>
+					<option value="lb">lb</option>
+				</select>
+				<label>to</label>
+				<select id='slt-unit2'>
+					<option value="lb">lb</option>
+					<option value="kg">kg</option>
+				</select>
+				<button id="btn-calculate">Calculate</button>
+			</div>
+			<div class="ex2-result">0
+			</div>
+		</div>
+	</div>
+
+	<div class="Ex Ex3">
+		<h3>Exercise 3</h3>
+		<div class="container">
+			<div class="inline input">
+				<label>Convert</label>
+				<input type="text" class="txt txt-Ex3-input" value="">
+				<select id='slt-Ex3-unit1'>
+					<option value="C">°C</option>
+					<option value="F">°F</option>
+				</select>
+				<label>to</label>
+				<select id='slt-Ex3-unit2'>
+					<option value="F">°F</option>
+					<option value="C">°C</option>
+				</select>
+				<button id="btn-Ex3-calculate">Calculate</button>
+			</div>
+			<div class="ex3-result">0
+			</div>
+		</div>
+	</div>
+</body>
+</html>

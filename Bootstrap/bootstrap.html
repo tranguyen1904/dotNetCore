@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Bootstrap 4 Example</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+        
+        <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">BootstrapDash</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </div>
+        </nav>
+        
+        <div class="jumbotron">
+            <label class="p-5">
+                1. Login form
+            </label>
+            <div class="row justify-content-center">
+                <div class="col-14 col-sm-8 col-md-5">
+                    <form class="form-container">
+                        
+                        <div class="form-group inner-addon right-addon">
+                            <i class="fa fa-user"></i>
+                            <input type="text" class="form-control" id="inputName" placeholder="Full Name" required="required">    
+                        </div>
+                        <div class="form-group inner-addon right-addon">
+                            <i class="fa fa-envelope"></i>
+                            <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+                        </div>
+                        <div class="form-group inner-addon right-addon">
+                            <i class="fa fa-lock"></i>
+                            <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+                        </div>
+                        <div class="form-group clearfix">
+                            <label class="form-check-label float-left"><input type="checkbox"> I agree to the <a href="#">terms</a></label>
+                            <button type="submit" class="btn btn-primary float-right">
+                                <i class="fa fa-save"></i> Register
+                            </button>
+                        </div>               
+                        <div class="form-group">
+                            <p class="text-center">- OR -</p>
+                        </div>
+                        <div class="row">
+                            <div class="col text-center">
+                                <button class="btn btn-primary"><i class="fa fa-facebook"></i> Sign up using Facebook
+                            </button>
+                            </div>
+                            <div class="col text-center">
+                                <button class="btn btn-danger"><i class="fa fa-google"></i> Sign up using Google
+                            </button>
+                            </div>
+                            
+                        </div>    
+                </form>
+                </div>
+            </div>
+            
+            <label class="p-5">
+                2. Table Price
+            </label>
+            <div class="table-price pt-5">
+                <div class="card-deck text-center">
+                    <div class="card box-shadow">
+                        <div class="card-header bg-danger">
+                            <h4 class="font-weight-normal">DEV PLAN</h4>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item"><h1 class="card-title">$10/month</h1></li>
+                            <li class="list-group-item">Personal use</li>
+                            <li class="list-group-item">Unlimited project</li>
+                            <li class="list-group-item">27/7 support</li>
+                            <li class="list-group-item">
+                                <button type="button" class="btn btn-lg btn-block btn-danger">
+                                BUY NOW!
+                                </button>
+                            </li>
+                            
+                        </ul>                        
+                    </div>
+                    <div class="card box-shadow">
+                        <div class="card-header bg-info">
+                            <h4 class="font-weight-normal">PRO PLAN</h4>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item"><h1 class="card-title">$10/month</h1></li>
+                            <li class="list-group-item">Personal use</li>
+                            <li class="list-group-item">Unlimited project</li>
+                            <li class="list-group-item">27/7 support</li>
+                            <li class="list-group-item">
+                                <button type="button" class="btn btn-lg btn-block btn-info">
+                                BUY NOW!
+                                </button>
+                            </li>
+                            
+                        </ul>                        
+                    </div>
+                    <div class="card box-shadow">
+                        <div class="card-header bg-success">
+                            <h4 class="font-weight-normal">FREE PLAN</h4>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item"><h1 class="card-title">$10/month</h1></li>
+                            <li class="list-group-item">Personal use</li>
+                            <li class="list-group-item">Unlimited project</li>
+                            <li class="list-group-item">27/7 support</li>
+                            <li class="list-group-item">
+                                <button type="button" class="btn btn-lg btn-block btn-success">
+                                BUY NOW!
+                                </button>
+                            </li>
+                            
+                        </ul>                        
+                    </div>
+                </div>
+            </div>
+            <label class="p-5">
+                3. List
+            </label>
+            <div class="container Sortable-list pt-5">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="panel panel-primary">
+                            <div class="card">
+                                <div class="card-header bg-primary">
+                                    <span class="fa fa-list-ul pr-2 listheader"></span><label class="listheader list-title">Sortable List</label>
+                                    <div class="pull-right action-buttons">
+                                        <div class="btn-group pull-right">
+                                            <button type="button" class="btn btn-block bg-white dropdown-toggle" data-toggle="dropdown">
+                                                <span class="fa fa-cog"></span>
+                                            </button>
+                                            <ul class="dropdown-menu slidedown">
+                                                <li><a href="#"><span class="fa fa-pencil"></span>Edit</a></li>
+                                                <li><a href="#" class="trash"><span class="fa fa-trash-o"></span>Delete</a></li>
+                                                <li><a href="#" class="flag"><span class="fa fa-flag"></span>Flag</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">
+                                    <div class="pull-right action-buttons">
+                                        <a href="#"><span class="fa fa-pencil"></span></a>
+                                        <a href="#" class="trash"><i class="fa fa-trash-o"></i></a>
+                                        <a href="#" class="flag"><span class="fa fa-flag"></span></a>
+                                    </div>
+                                    <b>List group item 1</b>
+                                    </li>
+                                    <li class="list-group-item">
+                                    <div class="pull-right action-buttons">
+                                        <a href="#"><span class="fa fa-pencil"></span></a>
+                                        <a href="#" class="trash"><i class="fa fa-trash-o"></i></a>
+                                        <a href="#" class="flag"><span class="fa fa-flag"></span></a>
+                                    </div>
+                                    <b>List group item 2</b>
+                                    </li>
+                                    <li class="list-group-item">
+                                    <div class="pull-right action-buttons">
+                                        <a href="#"><span class="fa fa-pencil"></span></a>
+                                        <a href="#" class="trash"><i class="fa fa-trash-o"></i></a>
+                                        <a href="#" class="flag"><span class="fa fa-flag"></span></a>
+                                    </div>
+                                    <b>List group item 3</b>
+                                    </li>
+                                    <li class="list-group-item">
+                                    <div class="pull-right action-buttons">
+                                        <a href="#"><span class="fa fa-pencil"></span></a>
+                                        <a href="#" class="trash"><i class="fa fa-trash-o"></i></a>
+                                        <a href="#" class="flag"><span class="fa fa-flag"></span></a>
+                                    </div>
+                                    <b>List group item 4</b>
+                                    </li>
+                                    <li class="list-group-item">
+                                    <div class="pull-right action-buttons">
+                                        <a href="#"><span class="fa fa-pencil"></span></a>
+                                        <a href="#" class="trash"><i class="fa fa-trash-o"></i></a>
+                                        <a href="#" class="flag"><span class="fa fa-flag"></span></a>
+                                    </div>
+                                    <b>List group item 5</b>
+                                    </li>
+                                </ul>                        
+                            </div>
+                            <div class="panel-footer">
+                                <div class="row">
+                                    <div class="col-md-6 pt-2 pl-4">
+                                        <h6>Total Count <span class="label label-info">25</span></h6>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <ul class="pagination pagination-sm pull-right">
+                                            <li class="list-group-item"><a href="#">«</a></li>
+                                            <li class="list-group-item"><a href="#">1</a></l>
+                                            <li class="list-group-item"><a href="#">2</a></li>
+                                            <li class="list-group-item"><a href="#">3</a></li>
+                                            <li class="list-group-item"><a href="#">4</a></li>
+                                            <li class="list-group-item"><a href="#">5</a></li>
+                                            <li class="list-group-item"><a href="javascript:void(0)">»</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

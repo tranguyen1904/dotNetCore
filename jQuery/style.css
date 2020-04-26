@@ -1,0 +1,27 @@
+html {
+	font-size: 120%;
+}
+.container {
+	text-align: center;
+	border: 2px solid #ccc;
+	padding: 10px 0 5px 0;
+}
+
+h3 {
+	margin: 5px 0;
+}
+
+.txt {
+	text-align: left;
+}
+
+.inline{
+	width: 100%;
+	margin: 5px 0;
+	display: inline-block;
+}
+
+
+.Ex {
+	margin: 20px;
+}
